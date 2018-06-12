@@ -1,12 +1,11 @@
 <template>
-  <div v-if="form.successful" class="alert alert-success alert-dismissible" role="alert">
-    <button v-if="dismissible" @click="dismiss" type="button" class="close" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-
+  <div v-if="form.successful" class="c-alert c-alert--success alert fade show" role="alert">
     <slot>
       <div v-html="message"/>
     </slot>
+    <button v-if="dismissible" @click="dismiss" class="c-close" data-dismiss="alert" type="button" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
   </div>
 </template>
 
