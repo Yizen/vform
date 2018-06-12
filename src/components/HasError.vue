@@ -1,5 +1,7 @@
 <template>
-  <div class="help-block invalid-feedback" v-if="form.errors.has(field)" v-html="form.errors.get(field)"/>
+  <small class="c-field__message u-color-danger" v-if="form.errors.has(field)">
+    <i class="fa fa-times-circle"></i><span v-html="form.errors.get(field)"></span>
+  </small>
 </template>
 
 <script>

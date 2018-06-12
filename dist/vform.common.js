@@ -626,14 +626,16 @@ Form_Form.routes = {};
 Form_Form.errorMessage = 'Something went wrong. Please try again.';
 Form_Form.ignore = ['busy', 'successful', 'errors', 'originalData'];
 /* harmony default export */ var src_Form = (Form_Form);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"/Users/ogrenet/Documents/Dev/vform/node_modules/.cache/vue-loader","cacheIdentifier":"9681b90a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HasError.vue?vue&type=template&id=a3a28ecc
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.form.errors.has(_vm.field))?_c('div',{staticClass:"help-block invalid-feedback",domProps:{"innerHTML":_vm._s(_vm.form.errors.get(_vm.field))}}):_vm._e()}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"/Users/ogrenet/Documents/Dev/vform/node_modules/.cache/vue-loader","cacheIdentifier":"9681b90a-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HasError.vue?vue&type=template&id=7fc8aa58
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.form.errors.has(_vm.field))?_c('small',{staticClass:"c-field__message u-color-danger"},[_c('i',{staticClass:"fa fa-times-circle"}),_c('span',{domProps:{"innerHTML":_vm._s(_vm.form.errors.get(_vm.field))}})]):_vm._e()}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/HasError.vue?vue&type=template&id=a3a28ecc
+// CONCATENATED MODULE: ./src/components/HasError.vue?vue&type=template&id=7fc8aa58
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HasError.vue?vue&type=script&lang=js
+//
+//
 //
 //
 //
